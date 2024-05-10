@@ -11,3 +11,17 @@ IMDB Dataset of 50K Movie Reviews: https://www.kaggle.com/datasets/lakshmi25npat
 
 
 Pickled glove.840B.300d: https://www.kaggle.com/datasets/authman/pickled-glove840b300d-for-10sec-loading
+
+
+### Requirement
+
+This step series is to show how to get a development environment running for this project.
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://yourrepository.git
+2.**create the environment and run**
+   ```bash
+   conda env create -f environment.yml
+   python main.py
