@@ -21,11 +21,49 @@ This step series is to show how to get a development environment running for thi
 
    ```bash
    git clone https://yourrepository.git
+   ```
 2.**create the environment and run**
    ```bash
    conda env create -f environment.yml
    python main.py
+   ```
+## Output IMDb Sentiment Analysis Model
 
+This project develops a deep learning model to perform sentiment analysis on IMDb movie reviews. The goal is to classify reviews as positive or negative accurately.
 
-###Output File###
+## Model Output
+
+The output of this project is a trained model saved as `imdb_model.h5`. This file contains the architecture of the model along with its trained weights.
+
+### What is `imdb_model.h5`?
+
+The `imdb_model.h5` file is a HDF5 file that stores:
+- The model's architecture (layers, activations, etc.)
+- The weights of the model after training
+- The training configuration (loss, optimizer)
+- The state of the optimizer, allowing to resume training exactly where you left off.
+
+## How to Use the Model
+
+### Prerequisites
+
+Ensure you have the following installed:
+- Python 3.6 or higher
+- TensorFlow 2.x
+- h5py (for handling `.h5` files)
+
+### Loading the Model
+
+You can load the model using TensorFlow Keras API:
+
+```python
+from tensorflow.keras.models import load_model
+
+# Load the model
+model = load_model('imdb_model.h5')
+
+# Use the model to make predictions
+# `sample_text` should be preprocessed as per the model's training data
+prediction = model.predict(sample_text)
+print("Prediction:", prediction)
 
