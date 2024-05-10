@@ -5,4 +5,4 @@ This is the assignment for ELEC0141 Deep Learning for Natural Language Processin
 
 ## Data Preperation
 The data is to large that can not upload to Github,The following link is to download the data.
-IMDB Dataset of 50K Movie Reviews: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+\\IMDB Dataset of 50K Movie Reviews: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
