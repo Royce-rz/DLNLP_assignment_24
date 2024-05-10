@@ -27,11 +27,25 @@ This step series is to show how to get a development environment running for thi
    conda env create -f environment.yml
    python main.py
    ```
+
+
+
+## Training Details
+
+### Hardware Used
+
+- **Chip**: Apple M2
+- **GPU Acceleration**: Enabled
+- **Training Environment**: TensorFlow with GPU support
+
+### Training Time
+
+The model was trained on an Apple M2 chip with GPU acceleration, resulting in a total training time of approximately 7000 seconds. This efficient use of hardware demonstrates the model's capability to handle extensive computations and large datasets effectively.
+
 ## Output IMDb Sentiment Analysis Model
 
 This project develops a deep learning model to perform sentiment analysis on IMDb movie reviews. The goal is to classify reviews as positive or negative accurately.
 
-## Model Output
 
 The output of this project is a trained model saved as `imdb_model.h5`. This file contains the architecture of the model along with its trained weights.
 
