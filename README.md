@@ -20,7 +20,7 @@ This step series is to show how to get a development environment running for thi
 1. **Clone the repository**
 
    ```bash
-   git clone https://yourrepository.git
+   git clone https://github.com/Royce-rz/DLNLP_assignment_24.git
    ```
 2.**create the environment and run**
    ```bash
